@@ -1,0 +1,209 @@
+/* =========================================
+   Contact Layout
+========================================= */
+
+.contact__layout{
+    display:grid;
+    grid-template-columns:320px 1fr;
+
+    gap:var(--space-32);
+}
+
+/* =========================================
+   Contact Information
+========================================= */
+
+.contact-info{
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-24);
+}
+
+.contact-info .card{
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-12);
+}
+
+.contact-info h2,
+.contact-info h3{
+    font-weight:var(--font-weight-bold);
+}
+
+.contact-info p{
+    color:var(--secondary-text-color);
+
+    line-height:var(--line-height-lg);
+}
+
+/* =========================================
+   Contact Form
+========================================= */
+
+.contact-form{
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-24);
+}
+
+.contact-form form{
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-20);
+}
+
+/* =========================================
+   Form Groups
+========================================= */
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-8);
+}
+
+.form-group label{
+    font-weight:var(--font-weight-medium);
+}
+
+.form-group input,
+.form-group textarea{
+    width:100%;
+
+    padding:var(--space-12);
+
+    border:var(--border-width-sm) solid var(--border-color);
+    border-radius:var(--radius-sm);
+
+    background-color:var(--surface-color);
+
+    color:var(--text-color);
+
+    font:inherit;
+}
+
+.form-group textarea{
+    resize:vertical;
+
+    min-height:180px;
+    max-width: 100%;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+    color:var(--secondary-text-color);
+}
+
+/* =========================================
+   Focus States
+========================================= */
+
+.form-group input:focus-visible,
+.form-group textarea:focus-visible{
+    outline:var(--border-width-sm) solid var(--primary-color);
+
+    outline-offset:2px;
+
+    box-shadow:var(--shadow-sm);
+}
+
+/* =========================================
+   Submit Button
+========================================= */
+
+.contact-form .btn{
+    align-self:flex-start;
+}
+
+/* =========================================
+   FAQ
+========================================= */
+
+.faq__list{
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-16);
+}
+
+.faq-card{
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-12);
+
+    height: 100%;
+}
+
+.faq-card h3{
+    font-size:var(--font-size-lg);
+}
+
+.faq-card p{
+    color:var(--secondary-text-color);
+
+    line-height:var(--line-height-lg);
+}
+
+/* =========================================
+   Map
+========================================= */
+
+.map__placeholder{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:350px;
+
+    border:2px dashed var(--border-color);
+
+    color:var(--secondary-text-color);
+
+    text-align:center;
+}
+
+/* =========================================
+   Responsive
+========================================= */
+
+@media (max-width:992px){
+
+    .contact__layout{
+        grid-template-columns:1fr;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .contact-form .btn{
+        width:100%;
+    }
+
+    .map__placeholder{
+        min-height:250px;
+    }
+
+}
+
+@media (max-width:576px){
+
+    .contact__layout{
+        gap:var(--space-24);
+    }
+
+    .contact-info{
+        gap:var(--space-16);
+    }
+
+    .contact-form form{
+        gap:var(--space-16);
+    }
+
+}

@@ -1,0 +1,30 @@
+/* typography.css */
+body{
+    font-family: var(--font-family);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-lg);
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.17rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.section__title{
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--space-32);
+}

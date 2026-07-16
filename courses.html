@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+
+            <nav class="navbar">
+                <a class="navbar__logo" href="./index.html">Tech Learning Platform</a>
+                <ul class="navbar__list">
+                    <li><a class="navbar__links" href="./index.html">Home</a></li>
+                    <li><a class="navbar__links" href="./courses.html">Courses</a></li>
+                    <li><a class="navbar__links" href="./about.html">About</a></li>
+                    <li><a class="navbar__links" href="./contact.html">Contact</a></li>
+                    <li><a class="navbar__links" href="./login.html">Login</a></li>
+                    <li><a class="navbar__links" href="./register.html">Register</a></li>
+                    <li><a class="navbar__links" href="./dashboard.html">Dashboard</a></li>
+                    <li><a class="navbar__links" href="./profile.html">Profile</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Courses Hero -->
+        <section class="courses-hero">
+
+            <div class="container">
+
+                <div class="page-hero__content">
+
+                    <h1 class="page-hero__title">Explore Our Courses</h1>
+                    
+                    <p class="page-hero__description">
+                        Choose from beginner to advanced courses designed to help you build practical software development skills.
+                    </p>
+                    
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Course Catalog -->
+        <section class="course-catalog">
+
+            <div class="container course-catalog__container">
+
+                <!-- Search & Filters -->
+                    <form class="course-filters" action="#">
+
+                        <div class="filter__group filter__group--search"> 
+                            <label for="search">Search courses</label>
+                            <input id="search" type="search" name="search" placeholder="Search courses">
+                        </div>
+
+                        <div class="filter__group">
+                            <label for="category">Category</label>
+                            <select id="category" name="category">
+                                
+                                <option value="">All Categories</option>
+                                <option value="frontend">Frontend</option>
+                                <option value="backend">Backend</option>
+                                <option value="database">Database</option>  
+                                
+                            </select>
+                        </div>
+
+                        <div class="filter__group">
+                            <label for="difficulty">Difficulty</label>
+                            <select id="difficulty" name="difficulty">
+                                
+                                <option value="">All Levels</option>
+                                <option value="beginner">Beginner</option>
+                                <option value="intermediate">Intermediate</option>
+                                <option value="advanced">Advanced</option>
+                                
+                            </select>
+                        </div>
+
+                    </form>
+
+                <!-- Course Grid -->
+                <div class="grid courses__grid">
+
+                    <article class="card course__card">
+
+                        <h2 class="course__title">Core Java</h2>
+
+                        <p class="course__description">Build a strong foundation in Java programming and object-oriented concepts.</p>
+
+                        <div class="course__metadata">
+                            <p><strong>Level:</strong> Beginner</p>
+                            <p><strong>Duration:</strong> 6 Months</p>
+                        </div>
+
+                        <a class="btn btn--secondary course--button" href="./course-details.html">View Details</a>
+
+                    </article>
+
+                    <article class="card course__card">
+
+                        <h2 class="course__title">HTML & CSS</h2>
+
+                        <p class="course__description">
+                            Learn how to build modern, responsive websites from scratch.
+                        </p>
+
+                        <div class="course__metadata">
+                            <p><strong>Level:</strong> Beginner</p>
+                            <p><strong>Duration:</strong> 6 Weeks</p>
+                        </div>
+
+                        <a class="btn btn--secondary course--button" href="./course-details.html">
+                            View Details
+                        </a>
+
+                    </article>
+
+                    <article class="card course__card">
+
+                        <h2 class="course__title">JavaScript</h2>
+
+                        <p class="course__description">
+                            Learn the language that powers modern web applications.
+                        </p>
+
+                        <div class="course__metadata">
+                            <p><strong>Level:</strong> Intermediate</p>
+                            <p><strong>Duration:</strong> 8 Weeks</p>
+                        </div>
+
+                        <a class="btn btn--secondary course--button" href="./course-details.html">
+                            View Details
+                        </a>
+
+                    </article>
+
+                    <article class="card course__card">
+
+                        <h2 class="course__title">React</h2>
+
+                        <p class="course__description">
+                            Build reusable user interfaces using modern React development.
+                        </p>
+
+                        <div class="course__metadata">
+                            <p><strong>Level:</strong> Intermediate</p>
+                            <p><strong>Duration:</strong> 10 Weeks</p>
+                        </div>
+
+                        <a class="btn btn--secondary course--button" href="./course-details.html">
+                            View Details
+                        </a>
+
+                    </article>
+
+                    <article class="card course__card">
+
+                        <h2 class="course__title">Spring Boot</h2>
+
+                        <p class="course__description">
+                            Develop scalable REST APIs using Spring Boot and Java.
+                        </p>
+
+                        <div class="course__metadata">
+                            <p><strong>Level:</strong> Advanced</p>
+                            <p><strong>Duration:</strong> 12 Weeks</p>
+                        </div>
+
+                        <a class="btn btn--secondary course--button" href="./course-details.html">
+                            View Details
+                        </a>
+
+                    </article>
+
+                    <article class="card course__card">
+
+                        <h2 class="course__title">MySQL</h2>
+
+                        <p class="course__description">
+                            Learn relational databases, SQL queries, and database design.
+                        </p>
+
+                        <div class="course__metadata">
+                            <p><strong>Level:</strong> Beginner</p>
+                            <p><strong>Duration:</strong> 4 Weeks</p>
+                        </div>
+
+                        <a class="btn btn--secondary course--button" href="./course-details.html">
+                            View Details
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <!-- Pagination -->
+                <nav class="pagination" aria-label="Course pages">
+
+                    <a class="btn btn--secondary" href="#">Previous</a>
+
+                    <a class="btn btn--primary" href="#">1</a>
+
+                    <a class="btn btn--secondary" href="#">2</a>
+
+                    <a class="btn btn--secondary" href="#">3</a>
+
+                    <a class="btn btn--secondary" href="#">Next</a>
+
+                </nav>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer> 
+
+        <div class="container">
+
+            <p>&copy; 2026 Tech Learning Platform. All rights reserved.</p>
+
+            <nav class="footer__nav">
+                <a href="./about.html">About</a>
+                <a href="./courses.html">Courses</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

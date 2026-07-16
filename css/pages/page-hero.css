@@ -1,0 +1,25 @@
+/* =========================================
+   Page Hero
+========================================= */
+
+.page-hero__content{
+    display:flex;
+    flex-direction:column;
+
+    gap:var(--space-12);
+
+    max-width:48rem;
+}
+
+.page-hero__title{
+    font-size:var(--font-size-xl);
+    font-weight:var(--font-weight-bold);
+
+    line-height:var(--line-height-sm);
+}
+
+.page-hero__description{
+    color:var(--secondary-text-color);
+
+    line-height:var(--line-height-lg);
+}

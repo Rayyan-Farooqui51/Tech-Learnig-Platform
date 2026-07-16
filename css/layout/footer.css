@@ -1,0 +1,31 @@
+/* footer.css  */
+footer{
+    background-color: var(--header-color);
+
+    text-align: center;
+
+    padding: var(--space-32);
+    margin-top: var(--space-64);
+}
+
+.footer__nav{
+    display:flex;
+
+    justify-content:center;
+
+    gap:var(--space-20);
+
+    margin-top:var(--space-16);
+
+    flex-wrap:wrap;
+}
+
+@media (max-width:576px){
+
+    .footer__nav{
+        flex-direction:column;
+
+        gap:var(--space-12);
+    }
+
+}

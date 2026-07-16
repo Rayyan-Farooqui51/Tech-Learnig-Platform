@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+
+            <nav class="navbar">
+                <a class="navbar__logo" href="./index.html">Tech Learning Platform</a>
+                <ul class="navbar__list">
+                    <li><a class="navbar__links" href="./index.html">Home</a></li>
+                    <li><a class="navbar__links" href="./courses.html">Courses</a></li>
+                    <li><a class="navbar__links" href="./about.html">About</a></li>
+                    <li><a class="navbar__links" href="./contact.html">Contact</a></li>
+                    <li><a class="navbar__links" href="./login.html">Login</a></li>
+                    <li><a class="navbar__links" href="./register.html">Register</a></li>
+                    <li><a class="navbar__links" href="./dashboard.html">Dashboard</a></li>
+                    <li><a class="navbar__links" href="./profile.html">Profile</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Dashboard Hero -->
+        <section class="dashboard-hero">
+
+            <div class="container">
+
+                <div class="page-hero__content">
+
+                    <h1 class="page-hero__title">Student Dashboard</h1>
+
+                    <p class="page-hero__description">Track your progress, manage your enrolled courses, and stay on top of your learning goals.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Dashboard -->
+        <section class="dashboard">
+
+            <div class="container dashboard__container">
+
+                <!-- Statistics -->
+                <section class="dashboard-stats">
+
+                    <article class="card stat-card">
+                        <h2 class="stat-card__value">6</h2>
+                        <p class="stat-card__label">Courses Enrolled</p>
+                    </article>
+
+                    <article class="card stat-card">
+                        <h2 class="stat-card__value">148</h2>
+                        <p class="stat-card__label">Hours Learned</p>
+                    </article>
+
+                    <article class="card stat-card">
+                        <h2 class="stat-card__value">3</h2>
+                        <p class="stat-card__label">Certificates Earned</p>
+                    </article>
+
+                    <article class="card stat-card">
+                        <h2 class="stat-card__value">18</h2>
+                        <p class="stat-card__label">Day Streak</p>
+                    </article>
+
+                </section>
+
+                <!-- Main Dashboard Layout -->
+                <div class="dashboard-layout">
+
+                    <!-- Recent Activity -->
+                    <section class="card dashboard-section">
+
+                        <h2>Recent Activity</h2>
+
+                        <ul class="activity-list">
+
+                            <li>Completed <strong>Java Collections Framework</strong>.</li>
+                            <li>Scored <strong>92%</strong> in HTML & CSS Quiz.</li>
+                            <li>Submitted the <strong>Responsive Portfolio Project</strong>.</li>
+                            <li>Earned the <strong>Java Basics Certificate</strong>.</li>
+                        </ul>
+
+                    </section>
+
+                    <!-- Upcoming Deadlines -->
+                    <aside class="card dashboard-section">
+
+                        <h2>Upcoming Deadlines</h2>
+
+                        <ul class="deadline-list">
+                            <li>Java Assignment — <strong>18 July</strong></li>
+                            <li>React Project — <strong>22 July</strong></li>
+                            <li>Database Quiz — <strong>25 July</strong></li>
+                        </ul>
+
+                    </aside>
+
+                </div>
+
+                <!-- Enrolled Courses -->
+                <section class="dashboard-courses">
+
+                    <h2 class="section__title">Enrolled Courses</h2>
+
+                    <div class="table-wrapper">
+
+                        
+                        <table class="dashboard-table">
+                            
+                            <thead>
+                                
+                                <tr>
+                                    <th>Course</th>
+                                    <th>Progress</th>
+                                    <th>Status</th>
+                                    <th>Next Lesson</th>
+                                </tr>
+                            
+                            </thead>
+                        
+                            <tbody>
+                            
+                                <tr>
+                                    <td>Core Java</td>
+                                    <td>75%</td>
+                                    <td>In Progress</td>
+                                    <td>Collections Framework</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>HTML & CSS</td>
+                                    <td>100%</td>
+                                    <td>Completed</td>
+                                    <td>Completed</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>42%</td>
+                                    <td>In Progress</td>
+                                    <td>DOM Manipulation</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>React</td>
+                                    <td>18%</td>
+                                    <td>In Progress</td>
+                                    <td>Components & Props</td>
+                                </tr>
+                                
+                                <tr>
+                                    <td>Spring Boot</td>
+                                    <td>0%</td>
+                                    <td>Not Started</td>
+                                    <td>Introduction</td>
+                                </tr>
+                            
+                            </tbody>
+                        
+                        </table>
+                    </div>
+                    
+                </section>
+                
+            </div>
+            
+        </section>
+
+    </main>
+
+    <footer> 
+
+        <div class="container">
+
+            <p>&copy; 2026 Tech Learning Platform. All rights reserved.</p>
+
+            <nav class="footer__nav">
+                <a href="./about.html">About</a>
+                <a href="./courses.html">Courses</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+
+        </div>
+
+    </footer>
+    
+</body>
+</html>
