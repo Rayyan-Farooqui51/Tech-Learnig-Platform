@@ -2,6 +2,10 @@
 
 A responsive multi-page educational website built using **HTML5** and **CSS3**. This project simulates a modern online learning platform and focuses on clean UI design, semantic HTML, reusable components, responsive layouts, and maintainable CSS architecture.
 
+Live Demo
+
+https://rayyan-farooqui51.github.io/Tech-Learning-Platform/
+
 ## Features
 
 * Multi-page responsive website
